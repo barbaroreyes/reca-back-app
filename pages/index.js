@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className={styles.container}>
-     <h3><Link to href="api/products">go to home</Link>go to home</h3>
+     <h3><Link to href="products">go to enywere</Link></h3>
     </div>
   )
 }
